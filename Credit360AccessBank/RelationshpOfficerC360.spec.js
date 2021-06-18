@@ -17,6 +17,7 @@ describe('Access Bank Credit 360', () => {
         cy.get(':nth-child(6) > .ripplelink > .ng-tns-c3-14').click()
         cy.wait(70000)
         //git
+        //test
         //cy.get('#searchString').type('') //Search Loan Application via ref
         //cy.get('.panel > .pull-right > :nth-child(2)').click() //Search
         cy.get(':nth-child(1) > .ui-selection-column > p-dtradiobutton > .ui-radiobutton > .ui-radiobutton-box').click()
